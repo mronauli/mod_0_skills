@@ -1,0 +1,6 @@
+Class: Server
+Attributes:
+hairColor (string)
+isBald (boolean)
+accessories (array)
+currentHeight (integer)

@@ -1,0 +1,8 @@
+Class: Menu
+
+Attributes:
+shape (string)
+numberOfPages (integer)
+breakfast (boolean)
+burgers (array)
+inchesWide (integer)
