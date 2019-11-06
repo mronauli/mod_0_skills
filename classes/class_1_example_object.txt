@@ -8,6 +8,6 @@ currentHeight: 100
 
 Methods:
 dyeHair (changes hair color attribute from "black" to "pink")
-shaveHead (modifies hair color attribute from black to "clear". Also, changes isBald to true)
+shaveHead (modifies hair color attribute from "black" to "clear". Also, changes isBald to true)
 addNecklace (adds necklace to array ["bracelet", "ring", "anklet", "necklace"])
-putonHeels (increases height attribute 150
+putonHeels (increases height attribute 150)

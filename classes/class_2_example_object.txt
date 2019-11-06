@@ -8,7 +8,7 @@ burgers: ["bleu cheese", "double cheeseburger", "mac and cheese burger"]
 inchesWide: 7
 
 Methods:
-cutMenu: (changes the attribute shape from square to rectangle and also decreases inchesWide attribute to 5)
-addPage: (modifies numberOfPages attribute by adding 1 page for a total of 2 pages)
+cutMenu: (changes the attribute shape from "square" to "rectangle" and also decreases inchesWide attribute to 5)
+addPage: (modifies numberOfPages attribute by adding 1 for a total of 2)
 isBreakfast? (returns false since there is no breakfast during happy hour)
 addBurger: (adds "bacon burger" to burgers array ["bleu cheese", "double cheeseburger", "mac and cheese burger", "bacon burger"])
