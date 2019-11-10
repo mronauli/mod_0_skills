@@ -1,14 +1,20 @@
-Object: Happy Hour Menu
+Object: HappyHourMenu
 
 Attributes:
 shape: "square"
+inchesWide: 7
 numberOfPages: 1
 breakfast: false
 burgers: ["bleu cheese", "double cheeseburger", "mac and cheese burger"]
-inchesWide: 7
+
 
 Methods:
-cutMenu: (changes the attribute shape from "square" to "rectangle" and also decreases inchesWide attribute to 5)
-addPage: (modifies numberOfPages attribute by adding 1 for a total of 2)
-isBreakfast? (returns false since there is no breakfast during happy hour)
-addBurger: (adds "bacon burger" to burgers array ["bleu cheese", "double cheeseburger", "mac and cheese burger", "bacon burger"])
+  cutMenu:
+    shape = "rectangle"
+    inchesWide = 5
+  addPage:
+    numberOfPages = 2
+  isBreakfast?:
+    breakfast == true
+  addBaconBurger:
+    burgers = ["bleu cheese", "double cheeseburger", "mac and cheese burger", "bacon burger"]
