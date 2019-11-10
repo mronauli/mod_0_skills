@@ -14,7 +14,7 @@ Methods:
     inchesWide = 5
   addPage:
     numberOfPages = 2
-  servesBreakfast?:
+  serveBreakfast?:
     breakfast = false
   addBaconBurger:
     burgers = ["bleu cheese", "double cheeseburger", "mac and cheese burger", "bacon burger"]
