@@ -7,12 +7,12 @@ accessories: ["bracelet", "ring", "anklet"]
 currentHeight: 100
 
 Methods:
-  dyeHair
+  dyeHair:
     hairColor = "pink"
-  shaveHead
+  shaveHead:
     hairColor = clear
     bald = true
-  addNecklace
+  addNecklace:
     accessories = ["bracelet", "ring", "anklet", "necklace"]
-  putOnHeels
+  putOnHeels:
     currentHeight = 150
