@@ -13,7 +13,7 @@ Methods:
     changes shape attribute. Also, decreases inchesWide by two
   addPage:
     adds one to number of pages
-  isBreakfast?:
-    checks to see if breakfast is served on menu
+  serveBreakfast?:
+    checks if true or false
   addBaconBurger:
     adds "bacon burger" to burgers array
