@@ -2,12 +2,17 @@ Object: Maria
 
 Attributes:
 hairColor: "black"
-isBald? false
-Accessories: ["bracelet", "ring", "anklet"]
+bald: false
+accessories: ["bracelet", "ring", "anklet"]
 currentHeight: 100
 
 Methods:
-dyeHair (changes hair color attribute from "black" to "pink")
-shaveHead (modifies hair color attribute from "black" to "clear". Also, changes isBald to true)
-addNecklace (adds necklace to array ["bracelet", "ring", "anklet", "necklace"])
-putonHeels (increases height attribute 150)
+  dyeHair
+    hairColor = "pink"
+  shaveHead
+    hairColor = clear
+    bald = true
+  addNecklace
+    accessories = ["bracelet", "ring", "anklet", "necklace"]
+  putOnHeels
+    currentHeight = 150

@@ -1,6 +1,17 @@
 Class: Server
+
 Attributes:
 hairColor (string)
-isBald (boolean)
+bald (boolean)
 accessories (array)
 currentHeight (integer)
+
+Methods:
+  dyeHair:
+    changes hairColor attribute
+  shaveHead:
+    modifies hairColor attribute. Also, sets bald to true
+  addNecklace:
+    adds necklace to accessories array
+  putOnHeels:
+    adds 50 to currentHeight
