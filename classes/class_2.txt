@@ -14,6 +14,6 @@ Methods:
   addPage:
     adds one to number of pages
   isBreakfast?:
-    returns false since there is no breakfast during happy hour
+    checks to see if breakfast is served on menu
   addBaconBurger:
     adds "bacon burger" to burgers array

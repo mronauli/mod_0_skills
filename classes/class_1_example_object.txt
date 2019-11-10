@@ -10,7 +10,7 @@ Methods:
   dyeHair:
     hairColor = "pink"
   shaveHead:
-    hairColor = clear
+    hairColor = "clear"
     bald = true
   addNecklace:
     accessories = ["bracelet", "ring", "anklet", "necklace"]
