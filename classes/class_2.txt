@@ -12,7 +12,7 @@ Methods:
   cutMenu:
     changes shape attribute. Also, decreases inchesWide by two
   addPage:
-    adds one to number of pages
+    adds one to numbeOfPages
   serveBreakfast?:
     checks if true or false
   addBaconBurger:
