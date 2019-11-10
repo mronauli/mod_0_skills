@@ -14,4 +14,4 @@ Methods:
   addNecklace:
     adds necklace to accessories array
   putOnHeels:
-    adds 50 to currentHeight
+    add 50 to currentHeight
