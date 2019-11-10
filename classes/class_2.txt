@@ -2,7 +2,18 @@ Class: Menu
 
 Attributes:
 shape (string)
+inchesWide (integer)
 numberOfPages (integer)
 breakfast (boolean)
 burgers (array)
-inchesWide (integer)
+
+
+Methods:
+  cutMenu:
+    changes shape attribute. Also, decreases inchesWide by two
+  addPage:
+    adds one to number of pages
+  isBreakfast?:
+    returns false since there is no breakfast during happy hour
+  addBaconBurger:
+    adds "bacon burger" to burgers array
